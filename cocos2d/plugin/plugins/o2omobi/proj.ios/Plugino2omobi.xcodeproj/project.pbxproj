@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59ED6A019BF497200BBA1AA /* Adso2omobi.m in Sources */ = {isa = PBXBuildFile; fileRef = A59ED69E19BF497200BBA1AA /* Adso2omobi.m */; };
+		A59ED6A919BF4A4200BBA1AA /* libBalintimesO2OmobiAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A59ED6A819BF4A4200BBA1AA /* libBalintimesO2OmobiAd.a */; };
+		A59ED6B119BF4AB900BBA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59ED6B019BF4AB900BBA1AA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A543F13E19BEA41900BF14F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A543F14019BEA41900BF14F6 /* libPlugino2omobi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlugino2omobi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59ED69D19BF497200BBA1AA /* Adso2omobi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adso2omobi.h; sourceTree = "<group>"; };
+		A59ED69E19BF497200BBA1AA /* Adso2omobi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adso2omobi.m; sourceTree = "<group>"; };
+		A59ED69F19BF497200BBA1AA /* Plugino2omobi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Plugino2omobi-Prefix.pch"; sourceTree = "<group>"; };
+		A59ED6A219BF4A4200BBA1AA /* BalintimesO2OmobiAd.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BalintimesO2OmobiAd.bundle; sourceTree = "<group>"; };
+		A59ED6A319BF4A4200BBA1AA /* BOAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAD.h; sourceTree = "<group>"; };
+		A59ED6A419BF4A4200BBA1AA /* BOADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOADBannerView.h; sourceTree = "<group>"; };
+		A59ED6A519BF4A4200BBA1AA /* BOADError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOADError.h; sourceTree = "<group>"; };
+		A59ED6A619BF4A4200BBA1AA /* BOADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOADInterstitial.h; sourceTree = "<group>"; };
+		A59ED6A719BF4A4200BBA1AA /* BOADMiniFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOADMiniFloat.h; sourceTree = "<group>"; };
+		A59ED6A819BF4A4200BBA1AA /* libBalintimesO2OmobiAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBalintimesO2OmobiAd.a; sourceTree = "<group>"; };
+		A59ED6AA19BF4A8C00BBA1AA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		A59ED6AC19BF4A9400BBA1AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A59ED6AE19BF4AA200BBA1AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A59ED6B019BF4AB900BBA1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A543F13D19BEA41900BF14F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59ED6A919BF4A4200BBA1AA /* libBalintimesO2OmobiAd.a in Frameworks */,
+				A59ED6B119BF4AB900BBA1AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A543F13519BEA36B00BF14F6 = {
+			isa = PBXGroup;
+			children = (
+				A59ED6A119BF4A4200BBA1AA /* BalintimesO2OmobiAd */,
+				A59ED69D19BF497200BBA1AA /* Adso2omobi.h */,
+				A59ED69E19BF497200BBA1AA /* Adso2omobi.m */,
+				A59ED69F19BF497200BBA1AA /* Plugino2omobi-Prefix.pch */,
+				A59ED69C19BF494800BBA1AA /* Frameworks */,
+				A543F14119BEA41900BF14F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A543F14119BEA41900BF14F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A543F14019BEA41900BF14F6 /* libPlugino2omobi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59ED69C19BF494800BBA1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59ED6B019BF4AB900BBA1AA /* Foundation.framework */,
+				A59ED6AE19BF4AA200BBA1AA /* CoreGraphics.framework */,
+				A59ED6AC19BF4A9400BBA1AA /* QuartzCore.framework */,
+				A59ED6AA19BF4A8C00BBA1AA /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59ED6A119BF4A4200BBA1AA /* BalintimesO2OmobiAd */ = {
+			isa = PBXGroup;
+			children = (
+				A59ED6A219BF4A4200BBA1AA /* BalintimesO2OmobiAd.bundle */,
+				A59ED6A319BF4A4200BBA1AA /* BOAD.h */,
+				A59ED6A419BF4A4200BBA1AA /* BOADBannerView.h */,
+				A59ED6A519BF4A4200BBA1AA /* BOADError.h */,
+				A59ED6A619BF4A4200BBA1AA /* BOADInterstitial.h */,
+				A59ED6A719BF4A4200BBA1AA /* BOADMiniFloat.h */,
+				A59ED6A819BF4A4200BBA1AA /* libBalintimesO2OmobiAd.a */,
+			);
+			path = BalintimesO2OmobiAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A543F13F19BEA41900BF14F6 /* Plugino2omobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A543F14F19BEA41900BF14F6 /* Build configuration list for PBXNativeTarget "Plugino2omobi" */;
+			buildPhases = (
+				A543F13C19BEA41900BF14F6 /* Sources */,
+				A543F13D19BEA41900BF14F6 /* Frameworks */,
+				A543F13E19BEA41900BF14F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plugino2omobi;
+			productName = Plugino2omobi;
+			productReference = A543F14019BEA41900BF14F6 /* libPlugino2omobi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A543F13619BEA36B00BF14F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					A543F13F19BEA41900BF14F6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = A543F13919BEA36B00BF14F6 /* Build configuration list for PBXProject "Plugino2omobi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A543F13519BEA36B00BF14F6;
+			productRefGroup = A543F14119BEA41900BF14F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A543F13F19BEA41900BF14F6 /* Plugino2omobi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A543F13C19BEA41900BF14F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59ED6A019BF497200BBA1AA /* Adso2omobi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A543F13A19BEA36B00BF14F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+			};
+			name = Debug;
+		};
+		A543F13B19BEA36B00BF14F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+			};
+			name = Release;
+		};
+		A543F15019BEA41900BF14F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plugino2omobi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BalintimesO2OmobiAd",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A543F15119BEA41900BF14F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plugino2omobi-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BalintimesO2OmobiAd",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A543F13919BEA36B00BF14F6 /* Build configuration list for PBXProject "Plugino2omobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A543F13A19BEA36B00BF14F6 /* Debug */,
+				A543F13B19BEA36B00BF14F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A543F14F19BEA41900BF14F6 /* Build configuration list for PBXNativeTarget "Plugino2omobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A543F15019BEA41900BF14F6 /* Debug */,
+				A543F15119BEA41900BF14F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A543F13619BEA36B00BF14F6 /* Project object */;
+}

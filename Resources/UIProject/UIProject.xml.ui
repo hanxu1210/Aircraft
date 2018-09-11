@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\aircraft\Resources\UIProject</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\aircraft\Resources\UIProject\Resources</Resources>
+  <Name>UIProject</Name>
+  <JsonFileName>UIProject.json</JsonFileName>
+  <JsonFolder>D:\aircraft\Resources\UIProject\Json</JsonFolder>
+  <JsonList>
+    <string>Credits.json</string>
+    <string>GameOver.json</string>
+    <string>Upgrade.json</string>
+    <string>Game.json</string>
+    <string>Home.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1136</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>D:\aircraft\Resources\UIProject\UIProject.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>GameOver.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'libPluginKTPlay' target in the 'libPluginKTPlay’ project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

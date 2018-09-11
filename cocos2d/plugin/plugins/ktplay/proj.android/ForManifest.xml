@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <applicationCfg keyword="com.ktplay.plugin">
+        <!-- KTPlay SDK配置开始 -->
+        <activity
+            android:name="com.ktplay.activity.GetPhotoActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="user"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" >
+        </activity>
+        
+                
+    	<activity
+            android:name="com.kryptanium.plugin.sns.sinaweibo.KTPluginUmengSinaWeiboActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" >
+        </activity>
+        
+        <activity
+            android:name="com.kryptanium.plugin.sns.weixin.KTPluginUmengWXActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" >
+        </activity>
+        
+        <activity
+            android:name="com.kryptanium.plugin.sns.qq.KTPluginUmengQQActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" >
+        </activity>
+        <!-- 
+		        渠道号用于标识游戏发布渠道，以便在KTPlay Portal端配置推广链接
+		        具体渠道号请参看文档《KTPlay Android渠道列表》
+		        如果你需要支持的渠道未在列表中，请联系Support@Ktplay组添加
+         -->
+        <meta-data
+            android:name="KTPLAY_CHANNELID"
+            android:value="GP"
+            />
+        
+       <!--如果设置KTPLAY_LOCK_LOGINTYPE，则KT仅能使用锁定的渠道进行登录，其他登录方式屏蔽-->
+       <!-- <meta-data
+            android:name="KTPLAY_LOCK_LOGINTYPE"
+            android:value="qihoo360" /> -->
+
+        <!-- 配置游戏的发布区域版本-
+		            国际版:International 提供国际版服务：连接国外社区，SNS支持Twitter和Facebook
+		            国内版:China 提供国内版服务，连接国内社区，SNS支持新浪微博、QQ和微信
+		            全球版: Global，根据游戏首次启动的语言，简体中文提供国内版服务，其他则提供国际版服务
+        -->
+        <meta-data android:name="KTPLAY_REGION" android:value="China"/>
+        <!-- KTPlay SDK配置结束 -->
+    </applicationCfg>
+    <permissionCfg>
+        <!-- KTPlay SDK 权限配置开始 -->
+        	<uses-permission android:name="android.permission.INTERNET" />
+		    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+		    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+		    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+		    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+		    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+		    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <!-- KTPlay SDK 权限配置结束 -->
+    </permissionCfg>
+</manifestConfig> 

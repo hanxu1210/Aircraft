@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <applicationCfg keyword="com.otomod.plugin">
+        <activity android:name="com.otomod.ad.AdActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 图片在页面展示 authorities为你的包名(V2.0.0以上才使用) -->
+        <provider
+            android:name="com.otomod.ad.provider.ImageProvider"
+            android:authorities="com.godofgame.rushgirl" />
+        
+        <!-- 下载完成监听 -->
+        <receiver android:name="com.otomod.ad.DownloadCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 3.0.1版本有改动，请注意修改 -->
+        <service android:name="com.otomod.ad.openudid.OpenUDID_service" >
+            <intent-filter>
+                <action android:name="com.o2omobi.ad.openudid.GETUDID" />
+            </intent-filter>
+        </service>
+         
+        <!-- 安装广播监听-->
+        <receiver android:name="com.otomod.ad.APPReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.o2omobi.ad.alarm" />
+            </intent-filter>
+        </receiver>
+    </applicationCfg>
+
+    <permissionCfg>
+        <!-- 网络的权限 -->
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <!-- 下载的权限 -->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <!-- 悬浮窗 -->
+        <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <!-- 手机震动 -->
+        <uses-permission android:name="android.permission.VIBRATE" />
+        <!-- 获取程序列表 -->
+		<uses-permission android:name="android.permission.GET_TASKS" />
+    	<!-- 录音权限 -->
+		<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+        <!-- 可选权限 加上ACCESS_FINE_LOCATION权限，用户将更好的接收到我们的品牌广告 -->
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    </permissionCfg>
+</manifestConfig> 

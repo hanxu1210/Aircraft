@@ -1,0 +1,1 @@
+[{"Name":"Boss1","Hp":30,"Speed":150,"CollisionRectWidth":210,"CollisionRectHeight":100,"Image":"Boss/Emperor/Emperor0.png","MoveOutLength":"150;150","Shake":"Yes","NormalStateTime":3,"PreShootTime":2,"ShootTime":3,"SkillProbability":75,"SkillTypeProbability":75}]

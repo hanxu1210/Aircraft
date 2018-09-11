@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameLogic">
+      <UniqueIdentifier>{3a591567-438a-4b74-9621-d5c66f560a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject">
+      <UniqueIdentifier>{e2e72d27-a1f4-484a-9df1-9696518c4bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{e74d2361-af6c-4f13-b3d6-d3f921229660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Ui">
+      <UniqueIdentifier>{9f6ead74-c5ee-43a8-9157-a73a2bac84a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utilities">
+      <UniqueIdentifier>{88256902-a61c-4652-92eb-9ab376d49972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Bullet">
+      <UniqueIdentifier>{46cba86b-e088-4ca1-85df-3fd7c63af802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Generals">
+      <UniqueIdentifier>{bca2781a-7435-49b7-879b-2ca0357f0fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Generals\GeneralFactory">
+      <UniqueIdentifier>{a6b03620-a4e2-4783-9257-e42fa0a61f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Generals\Hornet">
+      <UniqueIdentifier>{1ade9e97-6ba3-4e93-b87d-b1b351409a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Generals\OptimusPrime">
+      <UniqueIdentifier>{8a1cb350-0f57-4c22-8ad7-50a697081dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Gpe">
+      <UniqueIdentifier>{5bae12a1-f0c2-42d7-bf0b-a4d46e011ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Gpe\EnergyStation">
+      <UniqueIdentifier>{212b7bf4-a133-4f44-8151-4602e3fc676c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Gpe\Replication">
+      <UniqueIdentifier>{d39c46d3-a5c3-4f1f-98c0-eb8a198dc7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Items">
+      <UniqueIdentifier>{1986536c-66a1-4cba-b42d-aae447fc56f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Items\Gold">
+      <UniqueIdentifier>{698d862c-992d-4db6-97e7-1b0d4167592a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\MagicMatrix">
+      <UniqueIdentifier>{bc451bbe-dbf1-436c-ad8a-0094a070d4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster">
+      <UniqueIdentifier>{ee5f8ee8-69c1-4561-8217-81796331b9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster\Boss">
+      <UniqueIdentifier>{8204bab5-a0d1-4bb6-ba58-ead717e15519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster\DashPlane">
+      <UniqueIdentifier>{be90605e-bcc1-4832-8737-85250a619491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster\StayPlane">
+      <UniqueIdentifier>{a51de841-5718-45ba-882a-d7f05fcbbdf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster\StreightPlane">
+      <UniqueIdentifier>{27bfe1bb-19df-43c4-bb85-37363992fa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject\Monster\TurnBackPlane">
+      <UniqueIdentifier>{f4fc4891-76c7-4bf1-a230-5873e47a2ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Ui\SpriteButton">
+      <UniqueIdentifier>{eec82337-ea0f-4b6b-9fa7-170c898cb3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utilities\cJSON">
+      <UniqueIdentifier>{6d095ad3-f8e5-4f48-aad5-ab32c7868bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utilities\FSM">
+      <UniqueIdentifier>{bbee9095-2909-4b0b-88c9-8beabb7b871c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sound">
+      <UniqueIdentifier>{310efdf0-758c-4ba3-80af-95d54760dc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Localization">
+      <UniqueIdentifier>{cc16ac3b-4458-45a8-89ce-5244ed171f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plugin">
+      <UniqueIdentifier>{0b6254a6-63fd-4b00-81be-3c16e56f9fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plugin\Channel">
+      <UniqueIdentifier>{2badad06-2f1e-4d6b-8f38-4c7c557befc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plugin\Channel\Win32">
+      <UniqueIdentifier>{82461654-81c9-4a64-b3e0-ab34ea75bc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameLogic\AdsLogic">
+      <UniqueIdentifier>{99a888ad-2248-4a19-8660-3f9985bc566d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plugin\Channel\360">
+      <UniqueIdentifier>{490a7e0f-092d-450c-be26-fad0a77e6c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plugin\Channel\Default">
+      <UniqueIdentifier>{98c0d1c7-ffa4-4d40-994e-6f7838fe8251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Config">
+      <UniqueIdentifier>{fb4e6101-7c0b-4f39-8d5a-27b7a85fbc79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLogic\BackgroundLogic.cpp">
+      <Filter>Classes\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLogic\GeneralGroupLogic.cpp">
+      <Filter>Classes\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLogic\GpeLogic.cpp">
+      <Filter>Classes\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLogic\MainPlayerLogic.cpp">
+      <Filter>Classes\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Bullet\BossLaser.cpp">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Bullet\Bullet.cpp">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Bullet\Laser.cpp">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Generals\General.cpp">
+      <Filter>Classes\GameObject\Generals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Generals\GeneralFactory\GeneralFactory.cpp">
+      <Filter>Classes\GameObject\Generals\GeneralFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Generals\Hornet\Hornet.cpp">
+      <Filter>Classes\GameObject\Generals\Hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Generals\OptimusPrime\OptimusPrime.cpp">
+      <Filter>Classes\GameObject\Generals\OptimusPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Gpe\Gpe.cpp">
+      <Filter>Classes\GameObject\Gpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Gpe\EnergyStation\EnergyStation.cpp">
+      <Filter>Classes\GameObject\Gpe\EnergyStation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Gpe\Replication\Replication.cpp">
+      <Filter>Classes\GameObject\Gpe\Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Items\Item.cpp">
+      <Filter>Classes\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Items\Gold\Gold.cpp">
+      <Filter>Classes\GameObject\Items\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\MagicMatrix\MagicCircle.cpp">
+      <Filter>Classes\GameObject\MagicMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\MagicMatrix\MagicPoint.cpp">
+      <Filter>Classes\GameObject\MagicMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\Monster.cpp">
+      <Filter>Classes\GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\Boss\Emperor.cpp">
+      <Filter>Classes\GameObject\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\DashPlane\DashPlane.cpp">
+      <Filter>Classes\GameObject\Monster\DashPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\StayPlane\StayPlane.cpp">
+      <Filter>Classes\GameObject\Monster\StayPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\StreightPlane\StreightPlane.cpp">
+      <Filter>Classes\GameObject\Monster\StreightPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\Monster\TurnBackPlane\TurnBackPlane.cpp">
+      <Filter>Classes\GameObject\Monster\TurnBackPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\GameObject.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\GameObjectManager.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\MainCharacter.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneBase.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneCredits.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneGame.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneGameOver.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneManager.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneUpgrade.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ui\UiManager.cpp">
+      <Filter>Classes\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ui\SpriteButton\SpriteButton.cpp">
+      <Filter>Classes\Ui\SpriteButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utilities\cJSON\cJSON.cpp">
+      <Filter>Classes\utilities\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject\GameObjectFactory.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneHome.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\SoundManager.cpp">
+      <Filter>Classes\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Localization\Localization.cpp">
+      <Filter>Classes\Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginAdsWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginAnalyticsWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginIAPWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginManagerWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginProtocolWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginShareWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginSocialWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\PluginUserWrapper.cpp">
+      <Filter>Classes\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Plugin.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\PluginAds.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\PluginAnalytics.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\PluginIAP.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\PluginShare.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\PluginSocial.cpp">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Win32\PluginChannelIAP.cpp">
+      <Filter>Classes\Plugin\Channel\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Win32\PluginChannelSocial.cpp">
+      <Filter>Classes\Plugin\Channel\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLogic\AdsLogic\AdsLogic.cpp">
+      <Filter>Classes\GameLogic\AdsLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\360\PluginChannelAds.cpp">
+      <Filter>Classes\Plugin\Channel\360</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Default\PluginChannelAds.cpp">
+      <Filter>Classes\Plugin\Channel\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Default\PluginChannelAnalytics.cpp">
+      <Filter>Classes\Plugin\Channel\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plugin\Channel\Default\PluginChannelShare.cpp">
+      <Filter>Classes\Plugin\Channel\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utilities\GraphicUtility.cpp">
+      <Filter>Classes\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\AnalyticsConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\CryptoConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\IAPConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\ShareConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\SocialConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\UserConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonHeaders.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResourceDefines.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\BackgroundLogic.h">
+      <Filter>Classes\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\GeneralGroupLogic.h">
+      <Filter>Classes\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\GpeLogic.h">
+      <Filter>Classes\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\MainPlayerLogic.h">
+      <Filter>Classes\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\SkillDefines.h">
+      <Filter>Classes\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Bullet\BossLaser.h">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Bullet\Bullet.h">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Bullet\Laser.h">
+      <Filter>Classes\GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Generals\General.h">
+      <Filter>Classes\GameObject\Generals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Generals\GeneralFactory\GeneralFactory.h">
+      <Filter>Classes\GameObject\Generals\GeneralFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Generals\Hornet\Hornet.h">
+      <Filter>Classes\GameObject\Generals\Hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Generals\OptimusPrime\OptimusPrime.h">
+      <Filter>Classes\GameObject\Generals\OptimusPrime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Gpe\Gpe.h">
+      <Filter>Classes\GameObject\Gpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Gpe\EnergyStation\EnergyStation.h">
+      <Filter>Classes\GameObject\Gpe\EnergyStation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Gpe\Replication\Replication.h">
+      <Filter>Classes\GameObject\Gpe\Replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Items\Item.h">
+      <Filter>Classes\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Items\Gold\Gold.h">
+      <Filter>Classes\GameObject\Items\Gold</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\MagicMatrix\MagicCircle.h">
+      <Filter>Classes\GameObject\MagicMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\MagicMatrix\MagicPoint.h">
+      <Filter>Classes\GameObject\MagicMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\Monster.h">
+      <Filter>Classes\GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\Boss\Emperor.h">
+      <Filter>Classes\GameObject\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\DashPlane\DashPlane.h">
+      <Filter>Classes\GameObject\Monster\DashPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\StayPlane\StayPlane.h">
+      <Filter>Classes\GameObject\Monster\StayPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\StreightPlane\StreightPlane.h">
+      <Filter>Classes\GameObject\Monster\StreightPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\Monster\TurnBackPlane\TurnBackPlane.h">
+      <Filter>Classes\GameObject\Monster\TurnBackPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\GameObject.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\GameObjectEnum.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\GameObjectManager.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\MainCharacter.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneBase.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneCredits.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneGame.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneGameOver.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneManager.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneUpgrade.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ui\UiManager.h">
+      <Filter>Classes\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ui\SpriteButton\SpriteButton.h">
+      <Filter>Classes\Ui\SpriteButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\Singleton.h">
+      <Filter>Classes\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\TypeDefines.h">
+      <Filter>Classes\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\Utilities.h">
+      <Filter>Classes\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\cJSON\cJSON.h">
+      <Filter>Classes\utilities\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\Fsm.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\Fsm.hpp">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\FsmInclude.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\FsmMacros.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\StateMacros.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\TransitionClusterMacros.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\FSM\TransitionMacros.h">
+      <Filter>Classes\utilities\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject\GameObjectFactory.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneHome.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\SoundManager.h">
+      <Filter>Classes\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Localization\Localization.h">
+      <Filter>Classes\Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginAdsWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginAnalyticsWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginIAPWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginManagerWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginProtocolWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginShareWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginSocialWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\PluginUserWrapper.h">
+      <Filter>Classes\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\Plugin.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginAds.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginAnalytics.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginChannelAds.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginChannelAnalytics.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginChannelIAP.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginChannelShare.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginChannelSocial.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginIAP.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginShare.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plugin\Channel\PluginSocial.h">
+      <Filter>Classes\Plugin\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLogic\AdsLogic\AdsLogic.h">
+      <Filter>Classes\GameLogic\AdsLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utilities\GraphicUtility.h">
+      <Filter>Classes\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\AdvertisingType.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\AnalyticsConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\AppConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\CryptoConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\IAPConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\ShareConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\SocialConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\UserConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

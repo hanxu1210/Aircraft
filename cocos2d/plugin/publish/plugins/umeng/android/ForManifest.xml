@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <applicationCfg keyword="com.umeng.plugin">
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!--分享编辑页-->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID-->
+                <data android:scheme="tencent100424468" /> 
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.renn.rennsdk.oauth.OAuthActivity"
+			android:configChanges="orientation|navigation|keyboardHidden"/>
+           
+        <service
+		    android:name="com.umeng.update.net.DownloadingService"
+		    android:process=":DownloadingService" >
+		</service>
+		<activity 
+		    android:name="com.umeng.update.UpdateDialogActivity"
+		    android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+		</activity>
+				
+		 <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:label="@string/umeng_fb_title"
+            android:theme="@style/AppTheme"/>
+        
+        <meta-data android:value="539fe21e56240b4473010261" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="qh360" android:name="UMENG_CHANNEL"/>
+    </applicationCfg>
+    <permissionCfg>
+        <!-- ###################声明SDK使用的相关权限###################### -->
+        <!-- 检测网络状态 -->
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+        <!-- 获取mac地址作为用户的备用唯一标识 -->
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />     
+        <!-- 获取用户手机的IMEI，用来唯一的标识用户 -->
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />      
+        <!-- 缓存资源优先存入SDcard -->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <!-- 允许应用程序联网，以便向我们的服务器端发送数据 -->
+        <uses-permission android:name="android.permission.INTERNET" />  
+        <uses-permission android:name="android.permission.GET_TASKS" />
+        <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+        <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+        <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+        <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    </permissionCfg>
+</manifestConfig> 

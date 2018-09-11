@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59ED6B119BF4AB900BBA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59ED6B019BF4AB900BBA1AA /* Foundation.framework */; };
+		A5E482D019C8875800E34D70 /* AdsAdChina.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E482CE19C8875800E34D70 /* AdsAdChina.m */; };
+		A5E4831319C8876B00E34D70 /* libAdChinaSDK3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E4831219C8876B00E34D70 /* libAdChinaSDK3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A543F13E19BEA41900BF14F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A531F58619CC15E500B43616 /* PluginAdChina-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PluginAdChina-Prefix.pch"; sourceTree = "<group>"; };
+		A543F14019BEA41900BF14F6 /* libPluginAdChina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginAdChina.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59ED6B019BF4AB900BBA1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5E482CD19C8875800E34D70 /* AdsAdChina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsAdChina.h; sourceTree = "<group>"; };
+		A5E482CE19C8875800E34D70 /* AdsAdChina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsAdChina.m; sourceTree = "<group>"; };
+		A5E482D219C8876B00E34D70 /* ACSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSingle.h; sourceTree = "<group>"; };
+		A5E482D319C8876B00E34D70 /* adchina_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_back.png; sourceTree = "<group>"; };
+		A5E482D419C8876B00E34D70 /* adchina_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_back@2x.png"; sourceTree = "<group>"; };
+		A5E482D519C8876B00E34D70 /* adchina_btnconfirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_btnconfirm.png; sourceTree = "<group>"; };
+		A5E482D619C8876B00E34D70 /* adchina_btnconfirm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_btnconfirm2.png; sourceTree = "<group>"; };
+		A5E482D719C8876B00E34D70 /* adchina_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_close.png; sourceTree = "<group>"; };
+		A5E482D819C8876B00E34D70 /* adchina_closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_closeButton.png; sourceTree = "<group>"; };
+		A5E482D919C8876B00E34D70 /* adchina_closeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_closeButton@2x.png"; sourceTree = "<group>"; };
+		A5E482DA19C8876B00E34D70 /* adchina_expand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_expand.png; sourceTree = "<group>"; };
+		A5E482DB19C8876B00E34D70 /* adchina_expand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_expand@2x.png"; sourceTree = "<group>"; };
+		A5E482DC19C8876B00E34D70 /* adchina_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_forward.png; sourceTree = "<group>"; };
+		A5E482DD19C8876B00E34D70 /* adchina_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_forward@2x.png"; sourceTree = "<group>"; };
+		A5E482DE19C8876B00E34D70 /* adchina_full_backgrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_full_backgrand.png; sourceTree = "<group>"; };
+		A5E482DF19C8876B00E34D70 /* adchina_hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_hide.png; sourceTree = "<group>"; };
+		A5E482E019C8876B00E34D70 /* adchina_hide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_hide@2x.png"; sourceTree = "<group>"; };
+		A5E482E119C8876B00E34D70 /* adchina_stoploading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_stoploading.png; sourceTree = "<group>"; };
+		A5E482E219C8876B00E34D70 /* adchina_stoploading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adchina_stoploading@2x.png"; sourceTree = "<group>"; };
+		A5E482E319C8876B00E34D70 /* adchina_toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adchina_toolbar.png; sourceTree = "<group>"; };
+		A5E482E419C8876B00E34D70 /* AdChinaBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaBannerView.h; sourceTree = "<group>"; };
+		A5E482E519C8876B00E34D70 /* AdChinaBannerViewDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaBannerViewDelegateProtocol.h; sourceTree = "<group>"; };
+		A5E482E619C8876B00E34D70 /* AdChinaFullScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaFullScreenView.h; sourceTree = "<group>"; };
+		A5E482E719C8876B00E34D70 /* AdChinaFullScreenViewDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaFullScreenViewDelegateProtocol.h; sourceTree = "<group>"; };
+		A5E482E819C8876B00E34D70 /* AdChinaInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaInterstitialView.h; sourceTree = "<group>"; };
+		A5E482E919C8876B00E34D70 /* AdChinaInterstitialViewDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaInterstitialViewDelegateProtocol.h; sourceTree = "<group>"; };
+		A5E482EA19C8876B00E34D70 /* AdChinaIPAdress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaIPAdress.h; sourceTree = "<group>"; };
+		A5E482EB19C8876B00E34D70 /* AdChinaLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaLocationManager.h; sourceTree = "<group>"; };
+		A5E482EC19C8876B00E34D70 /* AdchinaOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdchinaOpenUDID.h; sourceTree = "<group>"; };
+		A5E482ED19C8876B00E34D70 /* AdChinaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSDK.h; sourceTree = "<group>"; };
+		A5E482EE19C8876B00E34D70 /* AdChinaSDK3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSDK3.h; sourceTree = "<group>"; };
+		A5E482EF19C8876B00E34D70 /* AdChinaShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaShareKit.h; sourceTree = "<group>"; };
+		A5E482F019C8876B00E34D70 /* AdChinaShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaShareSDK.h; sourceTree = "<group>"; };
+		A5E482F119C8876B00E34D70 /* AdChinaSShareAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSShareAdapter.h; sourceTree = "<group>"; };
+		A5E482F219C8876B00E34D70 /* AdChinaSShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSShareKit.h; sourceTree = "<group>"; };
+		A5E482F319C8876B00E34D70 /* AdChinaSShareKitSnsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSShareKitSnsInfo.h; sourceTree = "<group>"; };
+		A5E482F419C8876B00E34D70 /* AdChinaSShareNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSShareNetworkAdapter.h; sourceTree = "<group>"; };
+		A5E482F519C8876B00E34D70 /* AdChinaSSharePlatformRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaSSharePlatformRegistry.h; sourceTree = "<group>"; };
+		A5E482F619C8876B00E34D70 /* AdChinaUserInfoDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaUserInfoDelegateProtocol.h; sourceTree = "<group>"; };
+		A5E482F719C8876B00E34D70 /* AdChinaVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaVideoView.h; sourceTree = "<group>"; };
+		A5E482F819C8876B00E34D70 /* AdChinaVideoViewDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChinaVideoViewDelegateProtocol.h; sourceTree = "<group>"; };
+		A5E482F919C8876B00E34D70 /* AdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdManager.h; sourceTree = "<group>"; };
+		A5E482FA19C8876B00E34D70 /* AdShareContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdShareContext.h; sourceTree = "<group>"; };
+		A5E482FB19C8876B00E34D70 /* dian_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dian_1.png; sourceTree = "<group>"; };
+		A5E482FC19C8876B00E34D70 /* dian_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dian_2.png; sourceTree = "<group>"; };
+		A5E482FD19C8876B00E34D70 /* mg_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mg_back.png; sourceTree = "<group>"; };
+		A5E482FE19C8876B00E34D70 /* mg_fs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mg_fs.png; sourceTree = "<group>"; };
+		A5E482FF19C8876B00E34D70 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		A5E4830019C8876B00E34D70 /* share@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@.png"; sourceTree = "<group>"; };
+		A5E4830119C8876B00E34D70 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		A5E4830219C8876B00E34D70 /* sharing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharing.png; sourceTree = "<group>"; };
+		A5E4830319C8876B00E34D70 /* sharing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sharing@2x.png"; sourceTree = "<group>"; };
+		A5E4830419C8876B00E34D70 /* sns_icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_1.png; sourceTree = "<group>"; };
+		A5E4830519C8876B00E34D70 /* sns_icon_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_18.png; sourceTree = "<group>"; };
+		A5E4830619C8876B00E34D70 /* sns_icon_18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_18@2x.png"; sourceTree = "<group>"; };
+		A5E4830719C8876B00E34D70 /* sns_icon_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_19.png; sourceTree = "<group>"; };
+		A5E4830819C8876B00E34D70 /* sns_icon_19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_19@2x.png"; sourceTree = "<group>"; };
+		A5E4830919C8876B00E34D70 /* sns_icon_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_1@2x.png"; sourceTree = "<group>"; };
+		A5E4830A19C8876B00E34D70 /* sns_icon_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_22.png; sourceTree = "<group>"; };
+		A5E4830B19C8876B00E34D70 /* sns_icon_22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_22@2x.png"; sourceTree = "<group>"; };
+		A5E4830C19C8876B00E34D70 /* sns_icon_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_23.png; sourceTree = "<group>"; };
+		A5E4830D19C8876B00E34D70 /* sns_icon_23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_23@2x.png"; sourceTree = "<group>"; };
+		A5E4830E19C8876B00E34D70 /* sns_icon_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_24.png; sourceTree = "<group>"; };
+		A5E4830F19C8876B00E34D70 /* sns_icon_24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_24@2x.png"; sourceTree = "<group>"; };
+		A5E4831019C8876B00E34D70 /* sns_icon_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_6.png; sourceTree = "<group>"; };
+		A5E4831119C8876B00E34D70 /* sns_icon_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_6@2x.png"; sourceTree = "<group>"; };
+		A5E4831219C8876B00E34D70 /* libAdChinaSDK3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdChinaSDK3.a; path = adchina/libAdChinaSDK3.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A543F13D19BEA41900BF14F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59ED6B119BF4AB900BBA1AA /* Foundation.framework in Frameworks */,
+				A5E4831319C8876B00E34D70 /* libAdChinaSDK3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A543F13519BEA36B00BF14F6 = {
+			isa = PBXGroup;
+			children = (
+				A5E482D119C8876B00E34D70 /* AdChinaSDK */,
+				A5E4831219C8876B00E34D70 /* libAdChinaSDK3.a */,
+				A5E482CD19C8875800E34D70 /* AdsAdChina.h */,
+				A5E482CE19C8875800E34D70 /* AdsAdChina.m */,
+				A531F58619CC15E500B43616 /* PluginAdChina-Prefix.pch */,
+				A59ED69C19BF494800BBA1AA /* Frameworks */,
+				A543F14119BEA41900BF14F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A543F14119BEA41900BF14F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A543F14019BEA41900BF14F6 /* libPluginAdChina.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59ED69C19BF494800BBA1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59ED6B019BF4AB900BBA1AA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E482D119C8876B00E34D70 /* AdChinaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A5E482D219C8876B00E34D70 /* ACSingle.h */,
+				A5E482D319C8876B00E34D70 /* adchina_back.png */,
+				A5E482D419C8876B00E34D70 /* adchina_back@2x.png */,
+				A5E482D519C8876B00E34D70 /* adchina_btnconfirm.png */,
+				A5E482D619C8876B00E34D70 /* adchina_btnconfirm2.png */,
+				A5E482D719C8876B00E34D70 /* adchina_close.png */,
+				A5E482D819C8876B00E34D70 /* adchina_closeButton.png */,
+				A5E482D919C8876B00E34D70 /* adchina_closeButton@2x.png */,
+				A5E482DA19C8876B00E34D70 /* adchina_expand.png */,
+				A5E482DB19C8876B00E34D70 /* adchina_expand@2x.png */,
+				A5E482DC19C8876B00E34D70 /* adchina_forward.png */,
+				A5E482DD19C8876B00E34D70 /* adchina_forward@2x.png */,
+				A5E482DE19C8876B00E34D70 /* adchina_full_backgrand.png */,
+				A5E482DF19C8876B00E34D70 /* adchina_hide.png */,
+				A5E482E019C8876B00E34D70 /* adchina_hide@2x.png */,
+				A5E482E119C8876B00E34D70 /* adchina_stoploading.png */,
+				A5E482E219C8876B00E34D70 /* adchina_stoploading@2x.png */,
+				A5E482E319C8876B00E34D70 /* adchina_toolbar.png */,
+				A5E482E419C8876B00E34D70 /* AdChinaBannerView.h */,
+				A5E482E519C8876B00E34D70 /* AdChinaBannerViewDelegateProtocol.h */,
+				A5E482E619C8876B00E34D70 /* AdChinaFullScreenView.h */,
+				A5E482E719C8876B00E34D70 /* AdChinaFullScreenViewDelegateProtocol.h */,
+				A5E482E819C8876B00E34D70 /* AdChinaInterstitialView.h */,
+				A5E482E919C8876B00E34D70 /* AdChinaInterstitialViewDelegateProtocol.h */,
+				A5E482EA19C8876B00E34D70 /* AdChinaIPAdress.h */,
+				A5E482EB19C8876B00E34D70 /* AdChinaLocationManager.h */,
+				A5E482EC19C8876B00E34D70 /* AdchinaOpenUDID.h */,
+				A5E482ED19C8876B00E34D70 /* AdChinaSDK.h */,
+				A5E482EE19C8876B00E34D70 /* AdChinaSDK3.h */,
+				A5E482EF19C8876B00E34D70 /* AdChinaShareKit.h */,
+				A5E482F019C8876B00E34D70 /* AdChinaShareSDK.h */,
+				A5E482F119C8876B00E34D70 /* AdChinaSShareAdapter.h */,
+				A5E482F219C8876B00E34D70 /* AdChinaSShareKit.h */,
+				A5E482F319C8876B00E34D70 /* AdChinaSShareKitSnsInfo.h */,
+				A5E482F419C8876B00E34D70 /* AdChinaSShareNetworkAdapter.h */,
+				A5E482F519C8876B00E34D70 /* AdChinaSSharePlatformRegistry.h */,
+				A5E482F619C8876B00E34D70 /* AdChinaUserInfoDelegateProtocol.h */,
+				A5E482F719C8876B00E34D70 /* AdChinaVideoView.h */,
+				A5E482F819C8876B00E34D70 /* AdChinaVideoViewDelegateProtocol.h */,
+				A5E482F919C8876B00E34D70 /* AdManager.h */,
+				A5E482FA19C8876B00E34D70 /* AdShareContext.h */,
+				A5E482FB19C8876B00E34D70 /* dian_1.png */,
+				A5E482FC19C8876B00E34D70 /* dian_2.png */,
+				A5E482FD19C8876B00E34D70 /* mg_back.png */,
+				A5E482FE19C8876B00E34D70 /* mg_fs.png */,
+				A5E482FF19C8876B00E34D70 /* share.png */,
+				A5E4830019C8876B00E34D70 /* share@.png */,
+				A5E4830119C8876B00E34D70 /* share@2x.png */,
+				A5E4830219C8876B00E34D70 /* sharing.png */,
+				A5E4830319C8876B00E34D70 /* sharing@2x.png */,
+				A5E4830419C8876B00E34D70 /* sns_icon_1.png */,
+				A5E4830519C8876B00E34D70 /* sns_icon_18.png */,
+				A5E4830619C8876B00E34D70 /* sns_icon_18@2x.png */,
+				A5E4830719C8876B00E34D70 /* sns_icon_19.png */,
+				A5E4830819C8876B00E34D70 /* sns_icon_19@2x.png */,
+				A5E4830919C8876B00E34D70 /* sns_icon_1@2x.png */,
+				A5E4830A19C8876B00E34D70 /* sns_icon_22.png */,
+				A5E4830B19C8876B00E34D70 /* sns_icon_22@2x.png */,
+				A5E4830C19C8876B00E34D70 /* sns_icon_23.png */,
+				A5E4830D19C8876B00E34D70 /* sns_icon_23@2x.png */,
+				A5E4830E19C8876B00E34D70 /* sns_icon_24.png */,
+				A5E4830F19C8876B00E34D70 /* sns_icon_24@2x.png */,
+				A5E4831019C8876B00E34D70 /* sns_icon_6.png */,
+				A5E4831119C8876B00E34D70 /* sns_icon_6@2x.png */,
+			);
+			name = AdChinaSDK;
+			path = adchina/AdChinaSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A543F13F19BEA41900BF14F6 /* PluginAdChina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A543F14F19BEA41900BF14F6 /* Build configuration list for PBXNativeTarget "PluginAdChina" */;
+			buildPhases = (
+				A543F13C19BEA41900BF14F6 /* Sources */,
+				A543F13D19BEA41900BF14F6 /* Frameworks */,
+				A543F13E19BEA41900BF14F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginAdChina;
+			productName = Plugino2omobi;
+			productReference = A543F14019BEA41900BF14F6 /* libPluginAdChina.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A543F13619BEA36B00BF14F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					A543F13F19BEA41900BF14F6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = A543F13919BEA36B00BF14F6 /* Build configuration list for PBXProject "PluginAdChina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A543F13519BEA36B00BF14F6;
+			productRefGroup = A543F14119BEA41900BF14F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A543F13F19BEA41900BF14F6 /* PluginAdChina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A543F13C19BEA41900BF14F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E482D019C8875800E34D70 /* AdsAdChina.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A543F13A19BEA36B00BF14F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+			};
+			name = Debug;
+		};
+		A543F13B19BEA36B00BF14F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+			};
+			name = Release;
+		};
+		A543F15019BEA41900BF14F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdChina-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adchina",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		A543F15119BEA41900BF14F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdChina-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adchina",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A543F13919BEA36B00BF14F6 /* Build configuration list for PBXProject "PluginAdChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A543F13A19BEA36B00BF14F6 /* Debug */,
+				A543F13B19BEA36B00BF14F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A543F14F19BEA41900BF14F6 /* Build configuration list for PBXNativeTarget "PluginAdChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A543F15019BEA41900BF14F6 /* Debug */,
+				A543F15119BEA41900BF14F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A543F13619BEA36B00BF14F6 /* Project object */;
+}
